@@ -10,6 +10,7 @@
 		29AB8FA7174DB66100A9AAB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AB8FA6174DB66100A9AAB7 /* Foundation.framework */; };
 		29AB8FAA174DB66100A9AAB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB8FA9174DB66100A9AAB7 /* main.m */; };
 		29AB8FAE174DB66100A9AAB7 /* RandomPossessions.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29AB8FAD174DB66100A9AAB7 /* RandomPossessions.1 */; };
+		29F28417174F0BB1001271C7 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F28416174F0BB1001271C7 /* BNRItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		29AB8FA9174DB66100A9AAB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29AB8FAC174DB66100A9AAB7 /* RandomPossessions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomPossessions-Prefix.pch"; sourceTree = "<group>"; };
 		29AB8FAD174DB66100A9AAB7 /* RandomPossessions.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RandomPossessions.1; sourceTree = "<group>"; };
+		29F28415174F0BB1001271C7 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		29F28416174F0BB1001271C7 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		29AB8FA8174DB66100A9AAB7 /* RandomPossessions */ = {
 			isa = PBXGroup;
 			children = (
+				29F28415174F0BB1001271C7 /* BNRItem.h */,
+				29F28416174F0BB1001271C7 /* BNRItem.m */,
 				29AB8FA9174DB66100A9AAB7 /* main.m */,
 				29AB8FAD174DB66100A9AAB7 /* RandomPossessions.1 */,
 				29AB8FAB174DB66100A9AAB7 /* Supporting Files */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29AB8FAA174DB66100A9AAB7 /* main.m in Sources */,
+				29F28417174F0BB1001271C7 /* BNRItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +248,7 @@
 				29AB8FB3174DB66100A9AAB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
